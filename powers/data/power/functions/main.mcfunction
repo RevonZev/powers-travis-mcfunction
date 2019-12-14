@@ -20,6 +20,10 @@ function power:entity/blaze/fire_immune
 function power:entity/zombie/armor
 function power:entity/zombie/sneak_heal
 
+# Cave Spider
+function power:entity/cave_spider/armor
+function power:entity/cave_spider/sneak_poison
+
 # Reset scores
 scoreboard players reset @a power.shootBow
 scoreboard players reset @a power.sneak

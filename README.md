@@ -37,7 +37,7 @@ TAG: power.mobpowername
   - Spawns with the Golden Sword powerup
   - Has 1 extra max health
 
-- [ ] Cave Spider
+- [X] Cave Spider
   - Has permanent jump boost
   - When the player shifts make a spider noise
   - After the player holds shift for 4 seconds nearby players get poisoned
