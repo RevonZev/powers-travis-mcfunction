@@ -2,19 +2,22 @@ scoreboard players add @a power.cooldown1 0
 scoreboard players add @a power.cooldown2 0
 
 # Creeper
-function power:creeper/armor
-function power:creeper/sneak
-function power:creeper/animation
+function power:entity/creeper/armor
+function power:entity/creeper/sneak
+function power:entity/creeper/animation
 
 # Skeleton
-function power:skeleton/armor
-function power:skeleton/hold_bow
-function power:skeleton/give_arrow
+function power:entity/skeleton/armor
+function power:entity/skeleton/hold_bow
+function power:entity/skeleton/give_arrow
 
 # Blaze
-function power:blaze/armor
-function power:blaze/double_jump
-function power:blaze/fire_immune
+function power:entity/blaze/armor
+function power:entity/blaze/double_jump
+function power:entity/blaze/fire_immune
+
+# Zombie
+function power:entity/zombie/armor
 
 # Reset scores
 scoreboard players reset @a power.shootBow
