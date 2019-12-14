@@ -29,9 +29,9 @@ TAG: power.mobpowername
     - While this ability is active the villager has a blood particle trail
 
 - [ ] Zombie
-  - When the player shifts make a noteblock noise
-  - Holding shift heals half a heart every second
-    - Whenever the player heals using this ability happy villager particles spawn around them
+  - When the player shifts make a zombie noise
+  - Holding shift heals half a heart every two second
+    - Whenever the player heals using this ability particles spawn around them
 
 - [ ] Pigman
   - Spawns with the Golden Sword powerup

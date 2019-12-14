@@ -18,6 +18,7 @@ function power:entity/blaze/fire_immune
 
 # Zombie
 function power:entity/zombie/armor
+function power:entity/zombie/sneak_heal
 
 # Reset scores
 scoreboard players reset @a power.shootBow
