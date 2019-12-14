@@ -28,7 +28,7 @@ TAG: power.mobpowername
   - Emerald grants strength for 9 seconds
     - While this ability is active the villager has a blood particle trail
 
-- [ ] Zombie
+- [X] Zombie
   - When the player shifts make a zombie noise
   - Holding shift heals half a heart every two second
     - Whenever the player heals using this ability particles spawn around them
