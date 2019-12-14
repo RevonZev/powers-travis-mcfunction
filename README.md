@@ -1,5 +1,5 @@
 # Datapack for Travis's project
-###### **© 2019 Revon Zev. DO NOT DISTRIBUTE**
+###### **© 2019 Revon Zev. DO NOT DISTRIBUTE.**
 
 ## Mob Powers
 - [ ] Creeper *to be fixed*
@@ -29,7 +29,7 @@
   - Spawns with the Golden Sword powerup
   - Has 1 extra max health
 
-- [ ]Cave Spider
+- [ ] Cave Spider
   - Has permanent jump boost
   - When the player shifts make a spider noise
   - After the player holds shift for 4 seconds nearby players get poisoned
