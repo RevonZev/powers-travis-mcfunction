@@ -2,14 +2,21 @@
 ###### **© 2019 Revon Zev. DO NOT DISTRIBUTE.**
 
 ## Mob Powers
-- [ ] Creeper *to be fixed*
+TAG: power.mobpowername
+
+- [X] Creeper. 
   - When the player shifts make a creeper noise
   - After the player holds shift for 3 seconds nearby players get damaged
-    - have a explosion particle
+    - 3 Heart if in 2 blocks
+    - 2 Heart if in 2 to 2.5 blocks
+    - 1 Heart if in 2.5 to 3 blocks
+    - Animated
+    - have an explosion particle and sound
 
 - [X] Skeleton
   - Spawns with a bow
   - Starts with a arrow and gains one every 5 seconds
+    - Only one arrow in the inventory
 
 - [ ] Blaze
   - Can double jump
