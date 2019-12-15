@@ -1,6 +1,7 @@
 scoreboard players add @a power.cooldown1 0
 scoreboard players add @a power.cooldown2 0
 
+
 #> Entity
 
 # Creeper
@@ -26,10 +27,16 @@ function power:entity/zombie/sneak_heal
 function power:entity/cave_spider/armor
 function power:entity/cave_spider/sneak_poison
 
+# Guardian
+function power:entity/guardian/armor
+function power:entity/guardian/strength_buff
+
+
 #> Pick Ups
 
 # Apple
 function power:pickup/apple
+
 
 #> Other
 

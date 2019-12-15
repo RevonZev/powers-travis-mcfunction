@@ -2,7 +2,7 @@
 ###### **© 2019 Revon Zev. DO NOT DISTRIBUTE.**
 
 ## Mob Powers
-TAG: power.mobpowername
+TAG: power.mobPowerName
 
 - [X] Creeper. 
   - When the player shifts make a creeper noise
@@ -43,11 +43,14 @@ TAG: power.mobpowername
   - After the player holds shift for 4 seconds nearby players get poisoned
     - have a dark green particle in the poision radius
 
-- [ ] Guardian
+- [X] Guardian
   - The less health the guardian has the more strength it gets
-    - hearts or less strength
-    - hearts or less strength 2
-    - heart strength 3
+    - 5 hearts or less strength
+    - 5 hearts or less resistance
+    - 3 hearts or less strength 2
+    - 3 hearts or less resistance 2
+    - 1 heart strength 3
+    - 1 heart resistance 3
 
 ## Power Ups
 Power ups... a random powerup spawns once every 12 seconds above powerup alters
