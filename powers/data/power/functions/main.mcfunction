@@ -37,6 +37,9 @@ function power:entity/guardian/strength_buff
 # Apple
 function power:pickup/apple
 
+# Golden Apple
+function power:pickup/golden_apple
+
 
 #> Other
 
