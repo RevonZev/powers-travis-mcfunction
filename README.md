@@ -56,7 +56,7 @@ TAG: power.mobPowerName
 Power ups... a random powerup spawns once every 12 seconds above powerup alters
 Power up have rainbow particles around them when they are on the alters
 
-- [ ] Apple
+- [X] Apple
   - Apon pickup the player heals 1 heart
   - Summon a green particle where the player is standing
   - Play a eating sound
