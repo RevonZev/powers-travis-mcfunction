@@ -71,7 +71,7 @@ Power up have rainbow particles around them when they are on the alters
   - Summon a green particle where the player is standing
   - Play a eating sound
 
-- [ ] Emerald
+- [X] Emerald
   - Useless item unless you are using the villager character
   - Summon a green particle where the player is standing apon pickup
   - Play a noteblock sound on pickup
