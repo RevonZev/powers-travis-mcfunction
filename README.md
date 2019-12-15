@@ -61,7 +61,7 @@ Power up have rainbow particles around them when they are on the alters
   - Summon a green particle where the player is standing
   - Play a eating sound
       
-- [ ] Golden Apple
+- [X] Golden Apple
   - Apon pickup the player heals 3 heart
   - Summon a magenta particle where the player is standing
   - Play a eating sound
