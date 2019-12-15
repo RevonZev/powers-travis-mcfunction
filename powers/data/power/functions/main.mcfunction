@@ -24,6 +24,10 @@ function power:entity/zombie/sneak_heal
 function power:entity/cave_spider/armor
 function power:entity/cave_spider/sneak_poison
 
+# Guardian
+function power:entity/guardian/armor
+function power:entity/guardian/strength_buff
+
 # Reset scores
 scoreboard players reset @a power.shootBow
 scoreboard players reset @a power.sneak
