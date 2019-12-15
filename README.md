@@ -66,7 +66,7 @@ Power up have rainbow particles around them when they are on the alters
   - Summon a magenta particle where the player is standing
   - Play a eating sound
 
-- [ ] Carrot
+- [X] Carrot
   - Apon pickup the player gains jump boost 2
   - Summon a green particle where the player is standing
   - Play a eating sound

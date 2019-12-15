@@ -40,6 +40,9 @@ function power:pickup/apple
 # Golden Apple
 function power:pickup/golden_apple
 
+# Carrot
+function power:pickup/carrot
+
 
 #> Other
 
