@@ -43,6 +43,9 @@ function power:pickup/golden_apple
 # Carrot
 function power:pickup/carrot
 
+# Emerlad
+function power:pickup/emerald
+
 
 #> Other
 
