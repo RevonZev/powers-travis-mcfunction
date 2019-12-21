@@ -23,7 +23,7 @@ TAG: power.mobPowerName
     - Smoke particle below their feet when jumping
   - Immune to fire damage
 
-- [ ] Villager
+- [X] Villager
   - Healing items heal +2 hearts more
   - Emerald grants strength for 9 seconds
     - While this ability is active the villager has a blood particle trail

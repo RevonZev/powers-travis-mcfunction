@@ -19,6 +19,10 @@ function power:entity/blaze/armor
 function power:entity/blaze/double_jump
 function power:entity/blaze/fire_immune
 
+# Villager
+function power:entity/villager/armor
+function power:entity/villager/blood_trail
+
 # Zombie
 function power:entity/zombie/armor
 function power:entity/zombie/sneak_heal
