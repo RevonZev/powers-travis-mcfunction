@@ -1,5 +1,6 @@
 scoreboard players add @a power.cooldown1 0
 scoreboard players add @a power.cooldown2 0
+scoreboard players add @a power.snowball 0
 
 
 #> Entity
@@ -50,6 +51,9 @@ function power:pickup/carrot
 # Emerlad
 function power:pickup/emerald
 
+# Egg
+function power:pickup/egg
+function power:pickup/rand/effect
 
 #> Other
 
@@ -57,6 +61,7 @@ function power:pickup/emerald
 scoreboard players reset @a power.shootBow
 scoreboard players reset @a power.sneak
 scoreboard players reset @a power.jump
+scoreboard players set @a power.snowball 0
 
 # Clear landded arrow
 kill @e[type=arrow,nbt={inGround:1b}]

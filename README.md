@@ -81,7 +81,7 @@ Power up have rainbow particles around them when they are on the alters
   - While thrown the snowball has a white particle trail
   - Gives players hit slowness 2
 
-- [ ] Egg
+- [X] Egg
   - Throwable item
   - Gives a random potion effect to any players hit
   - While thrown the egg has a egg colored particle trail
