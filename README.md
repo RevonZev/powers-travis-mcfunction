@@ -76,7 +76,7 @@ Power up have rainbow particles around them when they are on the alters
   - Summon a green particle where the player is standing apon pickup
   - Play a noteblock sound on pickup
 
-- [ ] Snowball
+- [X] Snowball
   - Throwable item
   - While thrown the snowball has a white particle trail
   - Gives players hit slowness 2
