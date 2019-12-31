@@ -55,6 +55,9 @@ function power:pickup/emerald
 function power:pickup/egg
 function power:pickup/rand/effect
 
+# Snowball
+function power:pickup/snowball
+
 #> Other
 
 # Reset scores
