@@ -58,6 +58,9 @@ function power:pickup/rand/effect
 # Snowball
 function power:pickup/snowball
 
+# Golden Sword
+function power:pickup/golden_sword
+
 #> Other
 
 # Reset scores
