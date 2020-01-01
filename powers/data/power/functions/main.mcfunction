@@ -10,45 +10,45 @@ scoreboard players add @a power.snowball 0
 #> Entity
 
 # Creeper
-#define tag power.entity.creeper
+#define tag power.creeper
 function power:entity/creeper/armor
 function power:entity/creeper/sneak
 function power:entity/creeper/animation
 
 # Skeleton
-#define tag power.entity.skeleton
+#define tag power.skeleton
 function power:entity/skeleton/armor
 function power:entity/skeleton/hold_bow
 function power:entity/skeleton/give_arrow
 
 # Blaze
-#define tag power.entity.blaze
+#define tag power.blaze
 function power:entity/blaze/armor
 function power:entity/blaze/double_jump
 function power:entity/blaze/fire_immune
 
 # Villager
-#define tag power.entity.villager
+#define tag power.villager
 function power:entity/villager/armor
 function power:entity/villager/blood_trail
 
 # Zombie
-#define tag power.entity.zombie
+#define tag power.zombie
 function power:entity/zombie/armor
 function power:entity/zombie/sneak_heal
 
 # Zombie pigman
-#define tag power.entity.pigman
+#define tag power.pigman
 function power:entity/pigman/armor
 function power:entity/pigman/start
 
 # Cave Spider
-#define tag power.entity.caveSpider
+#define tag power.caveSpider
 function power:entity/cave_spider/armor
 function power:entity/cave_spider/sneak_poison
 
 # Guardian
-#define tag power.entity.guardian
+#define tag power.guardian
 function power:entity/guardian/armor
 function power:entity/guardian/strength_buff
 
