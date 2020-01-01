@@ -2,6 +2,7 @@ scoreboard players add @a power.cooldown1 0
 scoreboard players add @a power.cooldown2 0
 scoreboard players add @a power.snowball 0
 
+#define tag power.start
 
 #> Entity
 
@@ -68,6 +69,9 @@ scoreboard players reset @a power.shootBow
 scoreboard players reset @a power.sneak
 scoreboard players reset @a power.jump
 scoreboard players set @a power.snowball 0
+
+# Reset tag
+tag @e[tag=power.start] remove power.start
 
 # Clear landded arrow
 kill @e[type=arrow,nbt={inGround:1b}]
