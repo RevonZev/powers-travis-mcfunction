@@ -5,6 +5,7 @@
 #define objective power.shootBow
 #define objective power.g_sword
 #define objective power.i_axe
+#define objective power.crossbow
 
 #define team power.punch
 
@@ -15,6 +16,7 @@ scoreboard objectives add power.sneak minecraft.custom:minecraft.sneak_time "Sne
 scoreboard objectives add power.shootBow minecraft.used:minecraft.bow "Shoot Bow"
 scoreboard objectives add power.g_sword dummy "G sword pickup"
 scoreboard objectives add power.i_axe dummy "I sword pickup"
+scoreboard objectives add power.crossbow dummy "Crossbow pickup"
 
 team add power.punch "Punch detect colision exclude"
 team modify power.punch collisionRule never

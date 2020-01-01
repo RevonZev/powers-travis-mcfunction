@@ -80,6 +80,9 @@ function power:pickup/golden_sword
 # Golden Sword
 function power:pickup/iron_axe
 
+# Golden Sword
+function power:pickup/crossbow
+
 #> Other
 
 # Reset scores
