@@ -86,7 +86,7 @@ Power up have rainbow particles around them when they are on the alters
   - Gives a random potion effect to any players hit
   - While thrown the egg has a egg colored particle trail
 
-- [ ] Golden Sword
+- [X] Golden Sword
   - Punch to shoot whither heads
   - Wither heads have a dark gray particle trail
   - After 8 seconds the Golden Sword is removed from the players inventory
