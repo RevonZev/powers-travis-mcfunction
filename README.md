@@ -96,6 +96,6 @@ Power up have rainbow particles around them when they are on the alters
   - The player will have a blood particle trail behind them while holding the axe
   - After 8 seconds the iron axe is removed from the players inventory
 
-- [ ] Crossbow
+- [X] Crossbow
   - Apon pickup the player receives 9 arrows
   - After 8 seconds the crossbow / arrows are removed from the players inventory
