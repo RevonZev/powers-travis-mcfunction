@@ -37,6 +37,11 @@ function power:entity/villager/blood_trail
 function power:entity/zombie/armor
 function power:entity/zombie/sneak_heal
 
+# Zombie pigman
+#define tag power.entity.pigman
+function power:entity/pigman/armor
+function power:entity/pigman/start
+
 # Cave Spider
 #define tag power.entity.caveSpider
 function power:entity/cave_spider/armor
