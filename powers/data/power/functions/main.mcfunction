@@ -77,6 +77,9 @@ function power:pickup/snowball
 # Golden Sword
 function power:pickup/golden_sword
 
+# Golden Sword
+function power:pickup/iron_axe
+
 #> Other
 
 # Reset scores
