@@ -33,7 +33,7 @@ TAG: power.mobPowerName
   - Holding shift heals half a heart every two second
     - Whenever the player heals using this ability particles spawn around them
 
-- [ ] Pigman
+- [X] Pigman
   - Spawns with the Golden Sword powerup
   - Has 1 extra max health
 
@@ -91,7 +91,7 @@ Power up have rainbow particles around them when they are on the alters
   - Wither heads have a dark gray particle trail
   - After 8 seconds the Golden Sword is removed from the players inventory
 
-- [ ] Iron Axe
+- [X] Iron Axe
   - The player gains strength while holding
   - The player will have a blood particle trail behind them while holding the axe
   - After 8 seconds the iron axe is removed from the players inventory
