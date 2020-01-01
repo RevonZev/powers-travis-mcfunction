@@ -20,6 +20,13 @@ execute at @e[tag=power.rand.effect,tag=power.rand.selected,tag=power.rand.effec
 execute at @e[tag=power.rand.effect,tag=power.rand.selected,tag=power.rand.effect.slow] run effect give @e[distance=..1,sort=nearest] slowness 5
 #endregion
 
+#region tell player
+execute at @e[tag=power.rand.effect,tag=power.rand.selected,tag=power.rand.effect.strength] run tellraw @a[distance=..1,sort=nearest] {"text":"STRENGTH","color":"red"}
+execute at @e[tag=power.rand.effect,tag=power.rand.selected,tag=power.rand.effect.speed] run tellraw @a[distance=..1,sort=nearest] {"text":"SPEED","color":"aqua"}
+execute at @e[tag=power.rand.effect,tag=power.rand.selected,tag=power.rand.effect.weak] run tellraw @a[distance=..1,sort=nearest] {"text":"WEAKNESS","color":"yellow"}
+execute at @e[tag=power.rand.effect,tag=power.rand.selected,tag=power.rand.effect.slow] run tellraw @a[distance=..1,sort=nearest] {"text":"SLOWNESS","color":"dark_aqua"}
+#endregion
+
 #region reset
 kill @e[type=area_effect_cloud,tag=power.rand.effect]
 tag @e[tag=power.effected] remove power.effected
