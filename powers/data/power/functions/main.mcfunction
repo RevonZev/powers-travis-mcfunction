@@ -87,7 +87,6 @@ function power:pickup/crossbow
 scoreboard players reset @a power.shootBow
 scoreboard players reset @a power.sneak
 scoreboard players reset @a power.jump
-scoreboard players set @a power.snowball 0
 
 ## Reset tag
 tag @e[tag=power.start] remove power.start
