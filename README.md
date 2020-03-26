@@ -4,7 +4,7 @@
 ## Mob Powers
 TAG: power.mobPowerName
 
-- [X] Creeper. 
+- Creeper. 
   - When the player shifts make a creeper noise
   - After the player holds shift for 3 seconds nearby players get damaged
     - 3 Heart if in 2 blocks
@@ -13,37 +13,37 @@ TAG: power.mobPowerName
     - Animated
     - have an explosion particle and sound
 
-- [X] Skeleton
+- Skeleton
   - Spawns with a bow
   - Starts with a arrow and gains one every 5 seconds
     - Only one arrow in the inventory
 
-- [X] Blaze
+- Blaze
   - Can double jump
     - Smoke particle below their feet when jumping
   - Immune to fire damage
 
-- [X] Villager
+- Villager
   - Healing items heal +2 hearts more
   - Emerald grants strength for 9 seconds
     - While this ability is active the villager has a blood particle trail
 
-- [X] Zombie
+- Zombie
   - When the player shifts make a zombie noise
   - Holding shift heals half a heart every two second
     - Whenever the player heals using this ability particles spawn around them
 
-- [X] Pigman
+- Pigman
   - Spawns with the Golden Sword powerup
   - Has 1 extra max health
 
-- [X] Cave Spider
+- Cave Spider
   - Has permanent jump boost
   - When the player shifts make a spider noise
   - After the player holds shift for 4 seconds nearby players get poisoned
     - have a dark green particle in the poision radius
 
-- [X] Guardian
+- Guardian
   - The less health the guardian has the more strength it gets
     - 5 hearts or less strength
     - 5 hearts or less resistance
@@ -56,46 +56,46 @@ TAG: power.mobPowerName
 Power ups... a random powerup spawns once every 12 seconds above powerup alters
 Power up have rainbow particles around them when they are on the alters
 
-- [X] Apple
+- Apple
   - Apon pickup the player heals 1 heart
   - Summon a green particle where the player is standing
   - Play a eating sound
       
-- [X] Golden Apple
+- Golden Apple
   - Apon pickup the player heals 3 heart
   - Summon a magenta particle where the player is standing
   - Play a eating sound
 
-- [X] Carrot
+- Carrot
   - Apon pickup the player gains jump boost 2
   - Summon a green particle where the player is standing
   - Play a eating sound
 
-- [X] Emerald
+- Emerald
   - Useless item unless you are using the villager character
   - Summon a green particle where the player is standing apon pickup
   - Play a noteblock sound on pickup
 
-- [X] Snowball
+- Snowball
   - Throwable item
   - While thrown the snowball has a white particle trail
   - Gives players hit slowness 2
 
-- [X] Egg
+- Egg
   - Throwable item
   - Gives a random potion effect to any players hit
   - While thrown the egg has a egg colored particle trail
 
-- [X] Golden Sword
+- Golden Sword
   - Punch to shoot whither heads
   - Wither heads have a dark gray particle trail
   - After 8 seconds the Golden Sword is removed from the players inventory
 
-- [X] Iron Axe
+- Iron Axe
   - The player gains strength while holding
   - The player will have a blood particle trail behind them while holding the axe
   - After 8 seconds the iron axe is removed from the players inventory
 
-- [X] Crossbow
+- Crossbow
   - Apon pickup the player receives 9 arrows
   - After 8 seconds the crossbow / arrows are removed from the players inventory
