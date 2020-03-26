@@ -1,3 +1,5 @@
+# Run from main.mcfunction
+
 #define tag power.goldenSword.pickup
 #define tag power.punchDetect
 

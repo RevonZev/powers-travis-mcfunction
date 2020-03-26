@@ -1,3 +1,5 @@
+# Run from main.mcfunction
+
 #region give iron_axe power item
 execute as @a[nbt={Inventory:[{id:"minecraft:iron_axe"}]}] unless entity @s[nbt={Inventory:[{id:"minecraft:iron_axe",tag:{Power:1b}}]}] run tag @s add power.ironAxe.pickup
 clear @a[tag=power.ironAxe.pickup] minecraft:iron_axe

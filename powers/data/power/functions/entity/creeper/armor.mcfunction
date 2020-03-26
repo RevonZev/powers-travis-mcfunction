@@ -1,3 +1,4 @@
+# Run from main.mcfunction
 # Execute as player that have power.creeper tag and replace their armor
 
 execute as @a[tag=power.creeper] unless score @s power.cooldown1 matches 1.. run replaceitem entity @s armor.head minecraft:creeper_head

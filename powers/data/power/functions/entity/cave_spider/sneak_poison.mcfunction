@@ -1,3 +1,4 @@
+# Run from main.mcfunction
 scoreboard players add @a[tag=power.caveSpider,scores={power.sneak=1..}] power.cooldown1 1
 
 execute at @a[tag=power.caveSpider,scores={power.cooldown1=1}] run playsound minecraft:entity.spider.ambient hostile @a[distance=..5] ~ ~ ~ .5 .8 1

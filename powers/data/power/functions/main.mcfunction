@@ -1,3 +1,5 @@
+# Run from tick.json
+
 scoreboard players add @a power.cooldown1 0
 scoreboard players add @a power.cooldown2 0
 

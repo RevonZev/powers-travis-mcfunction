@@ -1,3 +1,5 @@
+# Run from main.mcfunction
+
 #region give crossbow power item
 execute as @a[nbt={Inventory:[{id:"minecraft:crossbow"}]}] unless entity @s[nbt={Inventory:[{id:"minecraft:crossbow",tag:{Power:1b}}]}] run tag @s add power.crossbow.pickup
 clear @a[tag=power.crossbow.pickup] minecraft:crossbow

@@ -1,3 +1,5 @@
+# Run from main.mcfunction
+
 scoreboard players add @a[tag=power.zombie,scores={power.sneak=1..}] power.cooldown1 1
 
 execute at @a[tag=power.zombie,scores={power.cooldown1=1}] run playsound minecraft:entity.zombie.ambient hostile @a[distance=..3] ~ ~ ~ .3 .8 1

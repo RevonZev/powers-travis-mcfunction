@@ -1,3 +1,5 @@
+# Run from main.mcfunction
+
 #define tag power.rand.effect
 #define tag power.rand.effect.strength
 #define tag power.rand.effect.speed

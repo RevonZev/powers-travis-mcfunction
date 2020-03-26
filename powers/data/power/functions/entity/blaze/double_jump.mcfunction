@@ -1,3 +1,5 @@
+# Run from main.mcfunction
+
 # Jump to cooldown1 / value
 scoreboard players add @a[tag=power.blaze,scores={power.jump=1..}] power.cooldown1 1
 

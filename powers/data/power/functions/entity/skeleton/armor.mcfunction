@@ -1,3 +1,4 @@
+# Run from main.mcfunction
 # Execute as player that have power.skeleton tag and replace their armor
 
 replaceitem entity @a[tag=power.skeleton] armor.head minecraft:skeleton_skull

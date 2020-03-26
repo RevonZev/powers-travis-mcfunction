@@ -1,3 +1,4 @@
+# Run from main.mcfunction
 # Execute as player that have power.zombie tag and replace their armor
 
 replaceitem entity @a[tag=power.zombie] armor.head minecraft:zombie_head

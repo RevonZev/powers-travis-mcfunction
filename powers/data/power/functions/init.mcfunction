@@ -1,3 +1,5 @@
+# Run from load.json
+
 #define objective power.cooldown1
 #define objective power.cooldown2
 #define objective power.jump

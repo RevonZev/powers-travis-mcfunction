@@ -1,3 +1,4 @@
+# Run from main.mcfunction
 # Sneak detection and break reset
 scoreboard players add @a[tag=power.creeper,scores={power.sneak=1..}] power.cooldown1 1
 execute as @a[tag=power.creeper] unless score @s power.sneak matches 1.. run scoreboard players set @s power.cooldown1 0
