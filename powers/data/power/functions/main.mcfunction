@@ -1,9 +1,5 @@
-#define objective power.cooldown1
-#define objective power.cooldown2
-#define objective power.snowball
 scoreboard players add @a power.cooldown1 0
 scoreboard players add @a power.cooldown2 0
-scoreboard players add @a power.snowball 0
 
 #define tag power.start
 
