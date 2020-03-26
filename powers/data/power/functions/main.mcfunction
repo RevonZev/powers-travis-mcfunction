@@ -7,92 +7,92 @@ scoreboard players add @a power.snowball 0
 
 #define tag power.start
 
-#> Entity
+# Entity
 
-# Creeper
+## Creeper
 #define tag power.creeper
 function power:entity/creeper/armor
 function power:entity/creeper/sneak
 function power:entity/creeper/animation
 
-# Skeleton
+## Skeleton
 #define tag power.skeleton
 function power:entity/skeleton/armor
 function power:entity/skeleton/hold_bow
 function power:entity/skeleton/give_arrow
 
-# Blaze
+## Blaze
 #define tag power.blaze
 function power:entity/blaze/armor
 function power:entity/blaze/double_jump
 function power:entity/blaze/fire_immune
 
-# Villager
+## Villager
 #define tag power.villager
 function power:entity/villager/armor
 function power:entity/villager/blood_trail
 
-# Zombie
+## Zombie
 #define tag power.zombie
 function power:entity/zombie/armor
 function power:entity/zombie/sneak_heal
 
-# Zombie pigman
+## Zombie pigman
 #define tag power.pigman
 function power:entity/pigman/armor
 function power:entity/pigman/start
 
-# Cave Spider
+## Cave Spider
 #define tag power.caveSpider
 function power:entity/cave_spider/armor
 function power:entity/cave_spider/sneak_poison
 
-# Guardian
+## Guardian
 #define tag power.guardian
 function power:entity/guardian/armor
 function power:entity/guardian/strength_buff
 
 
-#> Pick Ups
+# Pick Ups
 
-# Apple
+## Apple
 function power:pickup/apple
 
-# Golden Apple
+## Golden Apple
 function power:pickup/golden_apple
 
-# Carrot
+## Carrot
 function power:pickup/carrot
 
-# Emerlad
+## Emerlad
 function power:pickup/emerald
 
-# Egg
+## Egg
 function power:pickup/egg
 function power:pickup/rand/effect
 
-# Snowball
+## Snowball
 function power:pickup/snowball
 
-# Golden Sword
+## Golden Sword
 function power:pickup/golden_sword
 
-# Golden Sword
+## Golden Sword
 function power:pickup/iron_axe
 
-# Golden Sword
+## Golden Sword
 function power:pickup/crossbow
 
-#> Other
+# Other
 
-# Reset scores
+## Reset scores
 scoreboard players reset @a power.shootBow
 scoreboard players reset @a power.sneak
 scoreboard players reset @a power.jump
 scoreboard players set @a power.snowball 0
 
-# Reset tag
+## Reset tag
 tag @e[tag=power.start] remove power.start
 
-# Clear landded arrow
+## Clear landded arrow
 kill @e[type=arrow,nbt={inGround:1b}]

@@ -1,4 +1,4 @@
-#> Execute as player that have power.guardian tag and replace their armor
+# Execute as player that have power.guardian tag and replace their armor
 
 replaceitem entity @a[tag=power.guardian] armor.head minecraft:player_head{display:{Name:"{\"text\":\"Guardian\"}"},SkullOwner:"Guardian"}
 replaceitem entity @a[tag=power.guardian] armor.chest minecraft:leather_chestplate{display:{color:5799022}}
