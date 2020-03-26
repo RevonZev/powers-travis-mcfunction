@@ -11,7 +11,7 @@ kill @e[type=item,nbt={Item:{id:"minecraft:golden_sword",tag:{Power:1b}}}]
 #endregion
 
 #region punch detect
-execute as @a[nbt={SelectedItem:{id:"minecraft:golden_sword",tag:{Power:1b}}}] at @s positioned ~ ~1 ~ unless entity @e[type=minecraft:slime,tag=power.punchDetect,distance=..2] run summon minecraft:slime ~ ~ ~ {Size:2,Tags:[power.punchDetect],NoAI:1b,ActiveEffects:[{ShowParticles:0b,Duration:1000000,Id:14}],Silent:1b}
+execute as @a[nbt={SelectedItem:{id:"minecraft:golden_sword",tag:{Power:1b}}}] at @s positioned ~ ~1 ~ unless entity @e[type=minecraft:slime,tag=power.punchDetect,distance=..2] run summon minecraft:slime ~ ~ ~ {Size:2,Tags:[power.punchDetect],NoAI:1b,ActiveEffects:[{ShowParticles:0b,Duration:1000000,Id:14b}],Silent:1b}
 execute as @a[nbt={SelectedItem:{id:"minecraft:golden_sword",tag:{Power:1b}}}] at @s positioned ~ ~1 ~ if entity @e[type=minecraft:slime,tag=power.punchDetect,distance=..2] run team join power.punch @s
 execute as @a[nbt={SelectedItem:{id:"minecraft:golden_sword",tag:{Power:1b}}}] at @s positioned ~ ~1 ~ if entity @e[type=minecraft:slime,tag=power.punchDetect,distance=..2] run team join power.punch @e[tag=power.punchDetect]
 execute as @a[nbt={SelectedItem:{id:"minecraft:golden_sword",tag:{Power:1b}}}] at @s positioned ~ ~1 ~ if entity @e[type=minecraft:slime,tag=power.punchDetect,distance=..2] run tp @e[tag=power.punchDetect,distance=..2] ~ ~ ~
