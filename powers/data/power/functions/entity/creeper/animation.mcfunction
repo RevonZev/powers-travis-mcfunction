@@ -1,4 +1,6 @@
 # Run from main.mcfunction
+
+# Creeper flashing animation
 execute as @a[tag=power.creeper] if score @s power.cooldown1 matches 1..10 run replaceitem entity @s armor.head minecraft:player_head{SkullOwner:"M31K0R"}
 execute as @a[tag=power.creeper] if score @s power.cooldown1 matches 1..10 run replaceitem entity @s armor.chest minecraft:leather_chestplate{display:{color:16383998}}
 execute as @a[tag=power.creeper] if score @s power.cooldown1 matches 1..10 run replaceitem entity @s armor.legs minecraft:leather_leggings{display:{color:16383998}}
