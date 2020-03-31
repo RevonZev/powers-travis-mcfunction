@@ -8,6 +8,7 @@
 #define objective power.g_sword
 #define objective power.i_axe
 #define objective power.crossbow
+#define objective power.health
 
 #define team power.punch
 
@@ -19,6 +20,7 @@ scoreboard objectives add power.shootBow minecraft.used:minecraft.bow "Shoot Bow
 scoreboard objectives add power.g_sword dummy "G sword pickup"
 scoreboard objectives add power.i_axe dummy "I sword pickup"
 scoreboard objectives add power.crossbow dummy "Crossbow pickup"
+scoreboard objectives add power.health health "power.health"
 
 team add power.punch "Punch detect colision exclude"
 team modify power.punch collisionRule never

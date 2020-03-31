@@ -9,50 +9,39 @@ scoreboard players add @a power.cooldown2 0
 
 ## Creeper
 #define tag power.creeper
-function power:entity/creeper/armor
-function power:entity/creeper/sneak
-function power:entity/creeper/animation
+execute as @e[tag=power.creeper] run function power:entity/creeper/main
 
 ## Skeleton
 #define tag power.skeleton
-function power:entity/skeleton/armor
-function power:entity/skeleton/hold_bow
-function power:entity/skeleton/give_arrow
+execute as @e[tag=power.skeleton] run function power:entity/skeleton/main
 
 ## Blaze
 #define tag power.blaze
-function power:entity/blaze/armor
-function power:entity/blaze/double_jump
-function power:entity/blaze/fire_immune
+execute as @a[tag=power.blaze] run function power:entity/blaze/main
 
 ## Villager
 #define tag power.villager
-function power:entity/villager/armor
-function power:entity/villager/blood_trail
+execute as @a[tag=power.villager] run function power:entity/villager/main
 
 ## Zombie
 #define tag power.zombie
-function power:entity/zombie/armor
-function power:entity/zombie/sneak_heal
+execute as @a[tag=power.zombie] run function power:entity/zombie/main
 
 ## Zombie pigman
 #define tag power.pigman
-function power:entity/pigman/armor
-function power:entity/pigman/start
+execute as @a[tag=power.pigman] run function power:entity/pigman/main
 
 ## Cave Spider
 #define tag power.caveSpider
-function power:entity/cave_spider/armor
-function power:entity/cave_spider/sneak_poison
+execute as @a[tag=power.caveSpider] run function power:entity/cave_spider/main
 
 ## Guardian
 #define tag power.guardian
-function power:entity/guardian/armor
-function power:entity/guardian/strength_buff
+execute as @a[tag=power.guardian] run function power:entity/guardian/main
 
 
 # Pick Ups
-
+# TODO: OPTIMIZATIONS
 ## Apple
 function power:pickup/apple
 
@@ -76,7 +65,8 @@ function power:pickup/snowball
 function power:pickup/golden_sword
 
 ## Golden Sword
-function power:pickup/iron_axe
+# TODO: FIX THIS
+#function power:pickup/iron_axe
 
 ## Golden Sword
 function power:pickup/crossbow

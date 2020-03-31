@@ -1,4 +1,5 @@
-# Run from main.mcfunction
+# Run from entity/blaze/main.mcfunction
+# As power.blaze tagged player
 
 # If blaze player; effect fire resistance
-effect give @a[tag=power.blaze] minecraft:fire_resistance 5 0 true
+effect give @s minecraft:fire_resistance 5 0 true
