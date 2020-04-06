@@ -43,33 +43,34 @@ execute as @a[tag=power.guardian] run function power:entity/guardian/main
 # Pick Ups
 # TODO: OPTIMIZATIONS
 ## Apple
-function power:pickup/apple
+execute as @a[nbt={Inventory:[{id:"minecraft:apple"}]}] run function power:pickup/apple
 
 ## Golden Apple
-function power:pickup/golden_apple
+execute as @a[nbt={Inventory:[{id:"minecraft:golden_apple"}]}] run function power:pickup/golden_apple
 
 ## Carrot
-function power:pickup/carrot
+execute as @a[nbt={Inventory:[{id:"minecraft:carrot"}]}] run function power:pickup/carrot
 
 ## Emerlad
-function power:pickup/emerald
+execute as @a[nbt={Inventory:[{id:"minecraft:emerald"}]}] run function power:pickup/emerald
 
 ## Egg
-function power:pickup/egg
+execute at @e[type=minecraft:egg] run function power:pickup/egg
 function power:pickup/rand/effect
 
 ## Snowball
-function power:pickup/snowball
+execute at @e[type=minecraft:snowball] run function power:pickup/snowball
 
 ## Golden Sword
-function power:pickup/golden_sword
+# FIXME: Update to 1.15
+#function power:pickup/golden_sword
+
+## Iron Axe
+function power:pickup/iron_axe/main
 
 ## Golden Sword
-# TODO: FIX THIS
-#function power:pickup/iron_axe
+function power:pickup/crossbow/main
 
-## Golden Sword
-function power:pickup/crossbow
 
 # Other
 
@@ -83,3 +84,7 @@ tag @e[tag=power.start] remove power.start
 
 ## Clear landded arrow
 kill @e[type=arrow,nbt={inGround:1b}]
+
+# Kills all the chicken
+tp @e[type=chicken] ~ ~1000 ~
+kill @e[type=chicken]

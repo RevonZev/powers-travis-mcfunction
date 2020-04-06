@@ -1,10 +1,7 @@
 # Run from main.mcfunction
+# At egg projectile
 
 #define tag power.effected
 
 # If thrown egg is near a player; add power.effected tag to him
-execute at @e[type=minecraft:egg] run tag @e[distance=..1,type=!egg] add power.effected
-
-# Kills all the chicken
-tp @e[type=chicken] ~ ~1000 ~
-kill @e[type=chicken]
+tag @e[distance=..1,sort=nearest,type=!minecraft:egg] add power.effected

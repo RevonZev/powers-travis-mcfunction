@@ -1,18 +1,14 @@
 # Run from main.mcfunction
 
+#define tag power.crossbow.pickup Player who has picked up crossbow item
+
 # Give crossbow to who ever pick up the power up
 ## If player have a crossbow in his inventory unless it has Power:1b tag; give the player power.crossbow.pickup tag
 execute as @a[nbt={Inventory:[{id:"minecraft:crossbow"}]}] unless entity @s[nbt={Inventory:[{id:"minecraft:crossbow",tag:{Power:1b}}]}] run tag @s add power.crossbow.pickup
-## clear crossbow.pickup the picked up crossbow
-clear @a[tag=power.crossbow.pickup] minecraft:crossbow
-## give crossbow.pickup a crossbow with Power:1b tag
-give @a[tag=power.crossbow.pickup] minecraft:crossbow{Power:1b} 1
-## give crossbow.pickup nine arrows
-give @a[tag=power.crossbow.pickup] minecraft:arrow 9
-## If player have crossbow.pickup tag; set power.crossbow to one
-scoreboard players set @a[tag=power.crossbow.pickup] power.crossbow 1
-## Remove power.crossbow player's power.crossbow tag
-tag @a[tag=power.crossbow.pickup] remove power.crossbow.pickup
+
+## When a player has picked up a crossbow item
+execute as @a[tag=power.crossbow.pickup] run function power:pickup/crossbow/pickedup
+
 ## Kill the crossbow item to prevent sharing
 kill @e[type=item,nbt={Item:{id:"minecraft:crossbow",tag:{Power:1b}}}]
 

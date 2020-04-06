@@ -3,14 +3,10 @@
 # Give iron axe
 ## If player have an iron axe without Power:1b tag in his inventory; add power.ironAxe.pickup tag
 execute as @a[nbt={Inventory:[{id:"minecraft:iron_axe"}]}] unless entity @s[nbt={Inventory:[{id:"minecraft:iron_axe",tag:{Power:1b}}]}] run tag @s add power.ironAxe.pickup
-## player tagged with power.ironAxe.pickup; clear iron_axe
-clear @a[tag=power.ironAxe.pickup] minecraft:iron_axe
-## player tagged with power.ironAxe.pickup; give iron_axe with Power:1b tag
-give @a[tag=power.ironAxe.pickup] minecraft:iron_axe{Power:1b} 1
-## player tagged with power.ironAxe.pickup; set power.i_axe value's to one
-scoreboard players set @a[tag=power.ironAxe.pickup] power.i_axe 1
-## player tagged with power.ironAxe.pickup; remove it
-tag @a[tag=power.ironAxe.pickup] remove power.ironAxe.pickup
+
+## Player has picked up the iron axe item
+execute as @a[tag=power.ironAxe.pickup] run function power:pickup/iron_axe/pickedup
+
 ## Kill all iron_axe item with Power:1b tag
 kill @e[type=item,nbt={Item:{id:"minecraft:iron_axe",tag:{Power:1b}}}]
 
