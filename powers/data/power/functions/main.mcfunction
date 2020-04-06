@@ -41,7 +41,7 @@ execute as @a[tag=power.guardian] run function power:entity/guardian/main
 
 
 # Pick Ups
-# TODO: OPTIMIZATIONS
+
 ## Apple
 execute as @a[nbt={Inventory:[{id:"minecraft:apple"}]}] run function power:pickup/apple
 
@@ -62,8 +62,8 @@ function power:pickup/rand/effect
 execute at @e[type=minecraft:snowball] run function power:pickup/snowball
 
 ## Golden Sword
-# FIXME: Update to 1.15
-#function power:pickup/golden_sword
+function power:pickup/golden_sword/main
+execute as @e[tag=power.witherHead,tag=!power.justExist] run function power:pickup/golden_sword/wither_head/main
 
 ## Iron Axe
 function power:pickup/iron_axe/main
